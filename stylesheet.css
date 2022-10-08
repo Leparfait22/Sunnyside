@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: rgba(230, 97, 9, 0);
+}
+
+body{
+
+    box-sizing: border-box;
+}
+
+.header{
+    background-image: url(image/image-header.jpg);
+    background-position: center;
+    background-size: cover;
+    width: auto;
+    height: 570px;
+}
+
+.navbar{
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding-left: 50px;
+    height: 100px;
+    
+}
+.navbar h2{
+    /* background-color: yellow; */
+    font-size: 32px;
+    padding: 5px 15px;
+}
+.navbar h2:hover{
+    color:  black;
+    transform: scale(1.1);
+    transition: 0.5s;
+    /* font-size: 30px; */
+}
+.navbar ul{
+    /* background-color: blueviolet; */
+    margin-left: 300px;
+}
+
+.navbar li {
+    /* background-color: aqua; */
+    display: inline;
+    text-decoration:  none;
+    padding: 5px 15px;
+    font-size: 20px;
+    margin: 10px 30px;
+}
+.navbar li a{
+    /* background-color: black; */
+    text-decoration: none;
+    padding: 5px 5px;
+}
+.navbar li a:hover{
+    color:  black; 
+    transform: scale(1.1);
+    transition: 0.4s;
+    /* font-size: 30px; */
+} 
+.contact{
+    background-color: white;
+    color: black;
+    margin-right: 100px;
+    font-size: 25px;
+    text-decoration: none;
+    border: 5px solide black;
+    border-radius: 40px;
+    padding: 15px 30px;
+}
+.contact:hover {
+    background-color: rgb(62,191,255);
+    /* color:  yellow; */
+    transition: 0.5s;
+    transform: scale(1.1);
+    /* padding: 20px 35px; */
+}
+.middle{
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+    width: auto;
+    font-size: 50px;
+    margin-top: 70px;
+    /* margin-left: 50%; */
+}
+.fleche{
+    margin-left: 47%;
+    height: 100px;
+    margin-top: 75px;
+}
+
+.contenu{
+    margin: 0;
+    padding: 0;
+}
+.group1{
+    display:flex;
+    /* background-color: red; */
+    height: 425px;
+    
+}
+.text-group1{
+    /* background-color: white; */
+    width: 700px;
+}
+.text-group1 h3{
+    /* background-color: yellow; */
+    color: rgb(21, 35, 65);
+    margin-top: 100px;
+    font-size: 40px;
+    padding: 20px 100px;
+    width: 50%;
+
+}
+.text-group1 p{
+    color:rgb(102, 110, 110);
+    font-size: 30px;
+    padding: 20px 60px;
+
+}
+.image-group1{
+    height: 425px;
+    width: 700px;
+}
+.group1 img{
+    height: 425px;
+    width: 700px;
+}
+.image-group1{
+    width: 50%;
+}
+
+.text-group1 a{
+    color: rgb(31, 37, 37);
+    /* background-color: rgb(9, 151, 33); */
+    text-decoration: none;
+    margin-left: 8%;
+    margin-top: 20px;
+    
+}
